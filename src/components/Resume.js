@@ -24,11 +24,14 @@ export default  class Resume extends Component {
   }
   render() {
     let resumeData = this.props.resumeData;
-    let {color}=this.state
+    
+    // eslint-disable-next-line no-unused-vars
+    let color = this.state;
+
     return (
       <section id="resume" >
 
-         
+        {/*
         <div className="row work">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
@@ -62,6 +65,7 @@ export default  class Resume extends Component {
             </div> 
          </div>
 
+        */}   
 
          <div className="row skill">
 
@@ -82,8 +86,8 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span style={{width:`${item.level}%`}} className={`bar-expand `}>
-                      </span><em>{item.skillname}</em>
+                      <span style={{width:`${item.level}%`}} className={`bar-expand `}></span>
+                      <em>{item.skillname}</em>
                       </li>
                     )
                   })
@@ -99,7 +103,7 @@ export default  class Resume extends Component {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+               <h1><span>Services</span></h1>
             </div>
 
             <div className="nine columns main-col">

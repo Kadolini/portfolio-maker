@@ -216,7 +216,8 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .header-col { padding-top: 9px; }
+#about .main-col { padding-right: 10%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -318,7 +319,8 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+   background: #313131;
+   /*background: #F06000;*/
    display: inline-block;
   	height: 42px;
    line-height: 42px;

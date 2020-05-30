@@ -52,7 +52,15 @@
    #about .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /*margin-left: 12px;*/
+      /*display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;*/
+      
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -215,13 +223,19 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .header-col {
+      padding-top: 0;
+      margin-bottom: auto;
+      /*margin-right: auto;
+      margin-left: auto;*/
+      /*text-align: center;*/
+   }
    #about .download .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #about .main-col { padding-right: 30px; text-align: center;}
 
 
    /* Resume Section

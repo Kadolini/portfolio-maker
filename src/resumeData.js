@@ -1,40 +1,50 @@
 let resumeData = {
     "imagebaseurl":"https://picsum.photos/200/300",
-    "name": "Rameez Shahsad",
+    "name": "ASKIA KADER",
     "role": "Fullstack developer",
-    "linkedinId":"https://www.linkedin.com/in/rameez-shahsad/",
-    "email":"merameez543@gmail.com",
+    "kado": "Fullstack developer",
+    "linkedinId":"https://www.linkedin.com/in/kader-askia/",
+    "email":"kaderaskia1@gmail.com",
     "roleDescription": `Experienced with a demonstrated history of working in the information technology and services industry. Skilled in JavaScript, Reactjs, Nodejs, HTML and CSS . `,
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rameez-shahsad/",
+          "url":"https://www.linkedin.com/in/kader-askia/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"https://github.com/rameez543",
+          "url":"https://github.com/Kadolini",
           "className":"fa fa-github"
         },
         {
           "name":"Email",
-          "url":"mailto:merameez543@gmail.com",
+          "url":"mailto:kaderaskia1@gmail.com",
           "className":"fa fa-envelope"
         },
       ],
-    "aboutme":`I am currently working as full stack developer in ceegees software solutions,enthusiastic 
-                software developer interested to build things.Specialized in javascript tech stack like Reactjs,Nodejs,Expressjs,React Native    `,
-    "address":"Bangalore,India",
-    "website":"http://rameez.ml",
-    "education":[
+    "aboutme":`I am currently working as a freelance full stack developer, enthusiastic 
+                software developer interested to build things. Specialized in many tech stack like Reactjs, React Native, Symfony, Django    `,
+    "address":"Lyon,France",
+    "website":"http://:).:)",
+    "education":[/*
       {
         "UniversityName":"Government Engineering college Wayanad",
         "specialization":"Btech in Computer science and Engineering",
         "MonthOfPassing":"March",
         "YearOfPassing":"2018",
         
+      },*/
+      {
+        "UniversityName":"Project Management",
+        "specialization":"UX & UI Design",
       },
-     
+      {
+        "UniversityName":"Mobile Development",
+      },
+      {
+        "UniversityName":"Web Development",
+      },
     ],
     "work":[
       {
@@ -51,7 +61,8 @@ let resumeData = {
       },
       
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
+    // eslint-disable-next-line no-sparse-arrays
     "skills":[
       
       {
@@ -59,25 +70,25 @@ let resumeData = {
         level: 65
       },
       {
-        "skillname": "Reduxjs",
+        "skillname": "JAVA",
+        level: 50
+      },
+      {
+        "skillname": "C++",
         level: 60
       },
       {
-        "skillname": "Nodejs",
-        level: 60
-      },
-      {
-        "skillname": "Expressjs",
+        "skillname": "PHP / MYSQL",
         level: 62
       },
       ,
       {
-        "skillname": "HTML5",
-        level: 75
+        "skillname": "Python",
+        level: 55
       },
       {
-        "skillname": "CSS",
-        level: 65
+        "skillname": "HTML5 / CSS3",
+        level: 85
       },
     ],
     "portfolio":[
